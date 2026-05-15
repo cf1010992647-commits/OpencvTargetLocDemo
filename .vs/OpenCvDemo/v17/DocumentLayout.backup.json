@@ -1,0 +1,222 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\OpenCvDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA4787E-FF2A-4D3A-A9EF-3DE579F5E46F}|OpenCvDemo.Demo\\OpenCvDemo.Demo.csproj|d:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\opencvdemo\\opencvdemo.demo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7DA4787E-FF2A-4D3A-A9EF-3DE579F5E46F}|OpenCvDemo.Demo\\OpenCvDemo.Demo.csproj|solutionrelative:opencvdemo.demo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408DDEA3-3F3A-49F9-AFE8-35AA079CD7E2}|OpenCvDemo.Core\\OpenCvDemo.Core.csproj|d:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\opencvdemo\\opencvdemo.core\\services\\visuallocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408DDEA3-3F3A-49F9-AFE8-35AA079CD7E2}|OpenCvDemo.Core\\OpenCvDemo.Core.csproj|solutionrelative:opencvdemo.core\\services\\visuallocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408DDEA3-3F3A-49F9-AFE8-35AA079CD7E2}|OpenCvDemo.Core\\OpenCvDemo.Core.csproj|d:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\opencvdemo\\opencvdemo.core\\services\\visuallocatesettingsstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408DDEA3-3F3A-49F9-AFE8-35AA079CD7E2}|OpenCvDemo.Core\\OpenCvDemo.Core.csproj|solutionrelative:opencvdemo.core\\services\\visuallocatesettingsstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408DDEA3-3F3A-49F9-AFE8-35AA079CD7E2}|OpenCvDemo.Core\\OpenCvDemo.Core.csproj|d:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\opencvdemo\\opencvdemo.core\\models\\detectionparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408DDEA3-3F3A-49F9-AFE8-35AA079CD7E2}|OpenCvDemo.Core\\OpenCvDemo.Core.csproj|solutionrelative:opencvdemo.core\\models\\detectionparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408DDEA3-3F3A-49F9-AFE8-35AA079CD7E2}|OpenCvDemo.Core\\OpenCvDemo.Core.csproj|d:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\opencvdemo\\opencvdemo.core\\models\\visuallocateexecutionresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408DDEA3-3F3A-49F9-AFE8-35AA079CD7E2}|OpenCvDemo.Core\\OpenCvDemo.Core.csproj|solutionrelative:opencvdemo.core\\models\\visuallocateexecutionresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408DDEA3-3F3A-49F9-AFE8-35AA079CD7E2}|OpenCvDemo.Core\\OpenCvDemo.Core.csproj|d:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\opencvdemo\\opencvdemo.core\\models\\visuallocatesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408DDEA3-3F3A-49F9-AFE8-35AA079CD7E2}|OpenCvDemo.Core\\OpenCvDemo.Core.csproj|solutionrelative:opencvdemo.core\\models\\visuallocatesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408DDEA3-3F3A-49F9-AFE8-35AA079CD7E2}|OpenCvDemo.Core\\OpenCvDemo.Core.csproj|d:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\opencvdemo\\opencvdemo.core\\models\\visuallocateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408DDEA3-3F3A-49F9-AFE8-35AA079CD7E2}|OpenCvDemo.Core\\OpenCvDemo.Core.csproj|solutionrelative:opencvdemo.core\\models\\visuallocateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408DDEA3-3F3A-49F9-AFE8-35AA079CD7E2}|OpenCvDemo.Core\\OpenCvDemo.Core.csproj|d:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\opencvdemo\\opencvdemo.core\\models\\standardpositionsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408DDEA3-3F3A-49F9-AFE8-35AA079CD7E2}|OpenCvDemo.Core\\OpenCvDemo.Core.csproj|solutionrelative:opencvdemo.core\\models\\standardpositionsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408DDEA3-3F3A-49F9-AFE8-35AA079CD7E2}|OpenCvDemo.Core\\OpenCvDemo.Core.csproj|d:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\opencvdemo\\opencvdemo.core\\models\\regionofinterestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408DDEA3-3F3A-49F9-AFE8-35AA079CD7E2}|OpenCvDemo.Core\\OpenCvDemo.Core.csproj|solutionrelative:opencvdemo.core\\models\\regionofinterestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408DDEA3-3F3A-49F9-AFE8-35AA079CD7E2}|OpenCvDemo.Core\\OpenCvDemo.Core.csproj|d:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\opencvdemo\\opencvdemo.core\\models\\calibrationsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408DDEA3-3F3A-49F9-AFE8-35AA079CD7E2}|OpenCvDemo.Core\\OpenCvDemo.Core.csproj|solutionrelative:opencvdemo.core\\models\\calibrationsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408DDEA3-3F3A-49F9-AFE8-35AA079CD7E2}|OpenCvDemo.Core\\OpenCvDemo.Core.csproj|d:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\opencvdemo\\opencvdemo.core\\abstractions\\ivisuallocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408DDEA3-3F3A-49F9-AFE8-35AA079CD7E2}|OpenCvDemo.Core\\OpenCvDemo.Core.csproj|solutionrelative:opencvdemo.core\\abstractions\\ivisuallocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VisualLocator.cs",
+              "DocumentMoniker": "D:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\OpenCvDemo\\OpenCvDemo.Core\\Services\\VisualLocator.cs",
+              "RelativeDocumentMoniker": "OpenCvDemo.Core\\Services\\VisualLocator.cs",
+              "ToolTip": "D:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\OpenCvDemo\\OpenCvDemo.Core\\Services\\VisualLocator.cs",
+              "RelativeToolTip": "OpenCvDemo.Core\\Services\\VisualLocator.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T08:18:00.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VisualLocateSettingsStore.cs",
+              "DocumentMoniker": "D:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\OpenCvDemo\\OpenCvDemo.Core\\Services\\VisualLocateSettingsStore.cs",
+              "RelativeDocumentMoniker": "OpenCvDemo.Core\\Services\\VisualLocateSettingsStore.cs",
+              "ToolTip": "D:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\OpenCvDemo\\OpenCvDemo.Core\\Services\\VisualLocateSettingsStore.cs",
+              "RelativeToolTip": "OpenCvDemo.Core\\Services\\VisualLocateSettingsStore.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T08:16:17.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VisualLocateSettings.cs",
+              "DocumentMoniker": "D:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\OpenCvDemo\\OpenCvDemo.Core\\Models\\VisualLocateSettings.cs",
+              "RelativeDocumentMoniker": "OpenCvDemo.Core\\Models\\VisualLocateSettings.cs",
+              "ToolTip": "D:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\OpenCvDemo\\OpenCvDemo.Core\\Models\\VisualLocateSettings.cs",
+              "RelativeToolTip": "OpenCvDemo.Core\\Models\\VisualLocateSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T08:16:12.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VisualLocateResult.cs",
+              "DocumentMoniker": "D:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\OpenCvDemo\\OpenCvDemo.Core\\Models\\VisualLocateResult.cs",
+              "RelativeDocumentMoniker": "OpenCvDemo.Core\\Models\\VisualLocateResult.cs",
+              "ToolTip": "D:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\OpenCvDemo\\OpenCvDemo.Core\\Models\\VisualLocateResult.cs",
+              "RelativeToolTip": "OpenCvDemo.Core\\Models\\VisualLocateResult.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T08:15:59.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VisualLocateExecutionResult.cs",
+              "DocumentMoniker": "D:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\OpenCvDemo\\OpenCvDemo.Core\\Models\\VisualLocateExecutionResult.cs",
+              "RelativeDocumentMoniker": "OpenCvDemo.Core\\Models\\VisualLocateExecutionResult.cs",
+              "ToolTip": "D:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\OpenCvDemo\\OpenCvDemo.Core\\Models\\VisualLocateExecutionResult.cs",
+              "RelativeToolTip": "OpenCvDemo.Core\\Models\\VisualLocateExecutionResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T08:15:57.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DetectionParameters.cs",
+              "DocumentMoniker": "D:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\OpenCvDemo\\OpenCvDemo.Core\\Models\\DetectionParameters.cs",
+              "RelativeDocumentMoniker": "OpenCvDemo.Core\\Models\\DetectionParameters.cs",
+              "ToolTip": "D:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\OpenCvDemo\\OpenCvDemo.Core\\Models\\DetectionParameters.cs",
+              "RelativeToolTip": "OpenCvDemo.Core\\Models\\DetectionParameters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T08:15:40.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\OpenCvDemo\\OpenCvDemo.Demo\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "OpenCvDemo.Demo\\MainWindow.xaml",
+              "ToolTip": "D:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\OpenCvDemo\\OpenCvDemo.Demo\\MainWindow.xaml",
+              "RelativeToolTip": "OpenCvDemo.Demo\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-15T08:00:05.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StandardPositionSettings.cs",
+              "DocumentMoniker": "D:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\OpenCvDemo\\OpenCvDemo.Core\\Models\\StandardPositionSettings.cs",
+              "RelativeDocumentMoniker": "OpenCvDemo.Core\\Models\\StandardPositionSettings.cs",
+              "ToolTip": "D:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\OpenCvDemo\\OpenCvDemo.Core\\Models\\StandardPositionSettings.cs",
+              "RelativeToolTip": "OpenCvDemo.Core\\Models\\StandardPositionSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T08:15:50.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegionOfInterestSettings.cs",
+              "DocumentMoniker": "D:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\OpenCvDemo\\OpenCvDemo.Core\\Models\\RegionOfInterestSettings.cs",
+              "RelativeDocumentMoniker": "OpenCvDemo.Core\\Models\\RegionOfInterestSettings.cs",
+              "ToolTip": "D:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\OpenCvDemo\\OpenCvDemo.Core\\Models\\RegionOfInterestSettings.cs",
+              "RelativeToolTip": "OpenCvDemo.Core\\Models\\RegionOfInterestSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T08:15:48.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CalibrationSettings.cs",
+              "DocumentMoniker": "D:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\OpenCvDemo\\OpenCvDemo.Core\\Models\\CalibrationSettings.cs",
+              "RelativeDocumentMoniker": "OpenCvDemo.Core\\Models\\CalibrationSettings.cs",
+              "ToolTip": "D:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\OpenCvDemo\\OpenCvDemo.Core\\Models\\CalibrationSettings.cs",
+              "RelativeToolTip": "OpenCvDemo.Core\\Models\\CalibrationSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T08:15:31.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IVisualLocator.cs",
+              "DocumentMoniker": "D:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\OpenCvDemo\\OpenCvDemo.Core\\Abstractions\\IVisualLocator.cs",
+              "RelativeDocumentMoniker": "OpenCvDemo.Core\\Abstractions\\IVisualLocator.cs",
+              "ToolTip": "D:\\\u4E2A\u4EBA\u5DE5\u5177\u9879\u76EE\\OpenCvDemo\\OpenCvDemo.Core\\Abstractions\\IVisualLocator.cs",
+              "RelativeToolTip": "OpenCvDemo.Core\\Abstractions\\IVisualLocator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T08:15:25.371Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OpenCvDemo.Demo</name>
+    </assembly>
+    <members>
+        <member name="T:OpenCvDemo.Demo.App">
+            <summary>
+            提供 WPF 应用程序入口。
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:OpenCvDemo.Demo.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:OpenCvDemo.Demo.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenCvDemo.Demo.Helpers.AsyncRelayCommand">
+            <summary>
+            提供异步命令的基础实现。
+            </summary>
+        </member>
+        <member name="M:OpenCvDemo.Demo.Helpers.AsyncRelayCommand.#ctor(System.Func{System.Threading.Tasks.Task},System.Func{System.Boolean})">
+            <summary>
+            初始化异步命令。
+            </summary>
+            <param name="executeAsync">异步执行逻辑。</param>
+            <param name="canExecute">可执行判断。</param>
+        </member>
+        <member name="E:OpenCvDemo.Demo.Helpers.AsyncRelayCommand.CanExecuteChanged">
+            <summary>
+            当命令状态变化时触发。
+            </summary>
+        </member>
+        <member name="M:OpenCvDemo.Demo.Helpers.AsyncRelayCommand.CanExecute(System.Object)">
+            <summary>
+            判断命令是否可执行。
+            </summary>
+            <param name="parameter">命令参数。</param>
+            <returns>是否可执行。</returns>
+        </member>
+        <member name="M:OpenCvDemo.Demo.Helpers.AsyncRelayCommand.Execute(System.Object)">
+            <summary>
+            执行命令。
+            </summary>
+            <param name="parameter">命令参数。</param>
+        </member>
+        <member name="M:OpenCvDemo.Demo.Helpers.AsyncRelayCommand.RaiseCanExecuteChanged">
+            <summary>
+            主动刷新命令状态。
+            </summary>
+        </member>
+        <member name="T:OpenCvDemo.Demo.Helpers.RelayCommand">
+            <summary>
+            提供同步命令的基础实现。
+            </summary>
+        </member>
+        <member name="M:OpenCvDemo.Demo.Helpers.RelayCommand.#ctor(System.Action,System.Func{System.Boolean})">
+            <summary>
+            初始化同步命令。
+            </summary>
+            <param name="execute">执行逻辑。</param>
+            <param name="canExecute">可执行判断。</param>
+        </member>
+        <member name="E:OpenCvDemo.Demo.Helpers.RelayCommand.CanExecuteChanged">
+            <summary>
+            当命令状态变化时触发。
+            </summary>
+        </member>
+        <member name="M:OpenCvDemo.Demo.Helpers.RelayCommand.CanExecute(System.Object)">
+            <summary>
+            判断命令是否可执行。
+            </summary>
+            <param name="parameter">命令参数。</param>
+            <returns>是否可执行。</returns>
+        </member>
+        <member name="M:OpenCvDemo.Demo.Helpers.RelayCommand.Execute(System.Object)">
+            <summary>
+            执行命令。
+            </summary>
+            <param name="parameter">命令参数。</param>
+        </member>
+        <member name="M:OpenCvDemo.Demo.Helpers.RelayCommand.RaiseCanExecuteChanged">
+            <summary>
+            主动刷新命令状态。
+            </summary>
+        </member>
+        <member name="T:OpenCvDemo.Demo.MainWindow">
+            <summary>
+            表示视觉定位演示主窗口。
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:OpenCvDemo.Demo.MainWindow.#ctor">
+            <summary>
+            初始化主窗口。
+            </summary>
+        </member>
+        <member name="M:OpenCvDemo.Demo.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:OpenCvDemo.Demo.ViewModels.MainWindowViewModel">
+            <summary>
+            表示主窗口的视图模型。
+            </summary>
+        </member>
+        <member name="M:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.#ctor(OpenCvDemo.Core.Abstractions.IVisualLocator,OpenCvDemo.Core.Services.VisualLocateSettingsStore)">
+            <summary>
+            初始化主窗口视图模型。
+            </summary>
+            <param name="visualLocator">视觉定位服务。</param>
+            <param name="settingsStore">配置文件服务。</param>
+        </member>
+        <member name="E:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.PropertyChanged">
+            <summary>
+            当属性变化时触发。
+            </summary>
+        </member>
+        <member name="P:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.SelectImageCommand">
+            <summary>
+            获取选择图片命令。
+            </summary>
+        </member>
+        <member name="P:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.RunLocateCommand">
+            <summary>
+            获取执行定位命令。
+            </summary>
+        </member>
+        <member name="P:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.OpenConfigFolderCommand">
+            <summary>
+            获取打开配置目录命令。
+            </summary>
+        </member>
+        <member name="P:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.ResetConfigCommand">
+            <summary>
+            获取重置配置命令。
+            </summary>
+        </member>
+        <member name="P:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.SelectedImagePath">
+            <summary>
+            获取或设置当前图片路径。
+            </summary>
+        </member>
+        <member name="P:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.SettingsPath">
+            <summary>
+            获取当前配置文件路径。
+            </summary>
+        </member>
+        <member name="P:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.StatusMessage">
+            <summary>
+            获取或设置状态文本。
+            </summary>
+        </member>
+        <member name="P:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.ResultJson">
+            <summary>
+            获取或设置结果 JSON。
+            </summary>
+        </member>
+        <member name="P:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.OffsetX">
+            <summary>
+            获取或设置 X 偏移显示文本。
+            </summary>
+        </member>
+        <member name="P:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.OffsetY">
+            <summary>
+            获取或设置 Y 偏移显示文本。
+            </summary>
+        </member>
+        <member name="P:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.OffsetR">
+            <summary>
+            获取或设置 R 偏移显示文本。
+            </summary>
+        </member>
+        <member name="P:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.Confidence">
+            <summary>
+            获取或设置置信度显示文本。
+            </summary>
+        </member>
+        <member name="P:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.OriginalImage">
+            <summary>
+            获取或设置原始图像预览。
+            </summary>
+        </member>
+        <member name="P:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.BinaryImage">
+            <summary>
+            获取或设置二值化图像预览。
+            </summary>
+        </member>
+        <member name="P:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.OverlayImage">
+            <summary>
+            获取或设置叠加结果图像预览。
+            </summary>
+        </member>
+        <member name="M:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.OnPropertyChanged(System.String)">
+            <summary>
+            触发属性变化通知。
+            </summary>
+            <param name="propertyName">属性名称。</param>
+        </member>
+        <member name="M:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.InitializeSettingsFile">
+            <summary>
+            初始化配置文件路径并确保默认文件存在。
+            </summary>
+        </member>
+        <member name="M:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.EnsureDefaultSettingsFile">
+            <summary>
+            确保默认配置文件存在。
+            </summary>
+        </member>
+        <member name="M:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.SelectImage">
+            <summary>
+            选择待处理图片。
+            </summary>
+        </member>
+        <member name="M:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.LoadOriginalPreview(System.String)">
+            <summary>
+            加载原始图片预览。
+            </summary>
+            <param name="imagePath">图片路径。</param>
+        </member>
+        <member name="M:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.CanRunLocate">
+            <summary>
+            判断是否允许执行定位。
+            </summary>
+            <returns>是否允许执行。</returns>
+        </member>
+        <member name="M:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.RunLocateAsync">
+            <summary>
+            执行视觉定位。
+            </summary>
+            <returns>异步任务。</returns>
+        </member>
+        <member name="M:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.UpdateSummary(OpenCvDemo.Core.Models.VisualLocateResult)">
+            <summary>
+            更新结果摘要文本。
+            </summary>
+            <param name="result">定位结果。</param>
+        </member>
+        <member name="M:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.OpenConfigFolder">
+            <summary>
+            打开配置文件所在目录。
+            </summary>
+        </member>
+        <member name="M:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.ResetConfigFile">
+            <summary>
+            将配置重置为默认值。
+            </summary>
+        </member>
+        <member name="M:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.RaiseLocateCommandState">
+            <summary>
+            刷新执行定位命令状态。
+            </summary>
+        </member>
+        <member name="M:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.SetProperty``1(``0@,``0,System.String)">
+            <summary>
+            设置属性值并触发通知。
+            </summary>
+            <typeparam name="T">属性类型。</typeparam>
+            <param name="field">字段引用。</param>
+            <param name="value">新值。</param>
+            <param name="propertyName">属性名称。</param>
+            <returns>是否发生更新。</returns>
+        </member>
+        <member name="M:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.ConvertToBitmapSource(OpenCvSharp.Mat)">
+            <summary>
+            将 OpenCV 图像转换为 WPF 位图。
+            </summary>
+            <param name="image">OpenCV 图像。</param>
+            <returns>WPF 位图。</returns>
+        </member>
+        <member name="M:OpenCvDemo.Demo.ViewModels.MainWindowViewModel.ConvertFromBytes(System.Byte[])">
+            <summary>
+            从字节数组恢复 WPF 位图。
+            </summary>
+            <param name="bytes">图像字节数组。</param>
+            <returns>WPF 位图；为空时返回空。</returns>
+        </member>
+    </members>
+</doc>

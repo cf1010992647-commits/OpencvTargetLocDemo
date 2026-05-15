@@ -1,0 +1,29 @@
+{
+  "Calibration": {
+    "ScaleX": 0.05,
+    "ScaleY": 0.05,
+    "YDirection": -1
+  },
+  "StandardPosition": {
+    "CenterX": 640.0,
+    "CenterY": 480.0,
+    "Angle": 0.0
+  },
+  "Roi": {
+    "X": 0,
+    "Y": 0,
+    "Width": 0,
+    "Height": 0
+  },
+  "Detection": {
+    "GaussianKernelSize": 5,
+    "MorphologyKernelSize": 3,
+    "MinArea": 5000.0,
+    "MaxArea": 500000.0,
+    "MinAspectRatio": 0.5,
+    "MaxAspectRatio": 2.0,
+    "MinSolidity": 0.55,
+    "InvertBinary": true,
+    "MinConfidence": 0.35
+  }
+}

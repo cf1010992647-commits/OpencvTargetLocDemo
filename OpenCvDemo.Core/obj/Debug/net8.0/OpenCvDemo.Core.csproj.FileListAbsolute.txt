@@ -1,0 +1,14 @@
+D:\个人工具项目\OpenCvDemo\OpenCvDemo.Core\bin\Debug\net8.0\OpenCvDemo.Core.deps.json
+D:\个人工具项目\OpenCvDemo\OpenCvDemo.Core\bin\Debug\net8.0\OpenCvDemo.Core.dll
+D:\个人工具项目\OpenCvDemo\OpenCvDemo.Core\bin\Debug\net8.0\OpenCvDemo.Core.pdb
+D:\个人工具项目\OpenCvDemo\OpenCvDemo.Core\obj\Debug\net8.0\OpenCvDemo.Core.csproj.AssemblyReference.cache
+D:\个人工具项目\OpenCvDemo\OpenCvDemo.Core\obj\Debug\net8.0\OpenCvDemo.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\个人工具项目\OpenCvDemo\OpenCvDemo.Core\obj\Debug\net8.0\OpenCvDemo.Core.AssemblyInfoInputs.cache
+D:\个人工具项目\OpenCvDemo\OpenCvDemo.Core\obj\Debug\net8.0\OpenCvDemo.Core.AssemblyInfo.cs
+D:\个人工具项目\OpenCvDemo\OpenCvDemo.Core\obj\Debug\net8.0\OpenCvDemo.Core.csproj.CoreCompileInputs.cache
+D:\个人工具项目\OpenCvDemo\OpenCvDemo.Core\obj\Debug\net8.0\OpenCvDemo.Core.dll
+D:\个人工具项目\OpenCvDemo\OpenCvDemo.Core\obj\Debug\net8.0\refint\OpenCvDemo.Core.dll
+D:\个人工具项目\OpenCvDemo\OpenCvDemo.Core\obj\Debug\net8.0\OpenCvDemo.Core.pdb
+D:\个人工具项目\OpenCvDemo\OpenCvDemo.Core\obj\Debug\net8.0\ref\OpenCvDemo.Core.dll
+D:\个人工具项目\OpenCvDemo\OpenCvDemo.Core\bin\Debug\net8.0\OpenCvDemo.Core.xml
+D:\个人工具项目\OpenCvDemo\OpenCvDemo.Core\obj\Debug\net8.0\OpenCvDemo.Core.xml

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "kLTX/aP0/pw=",
+  "success": true,
+  "projectFilePath": "D:\\个人工具项目\\OpenCvDemo\\OpenCvDemo.Demo\\OpenCvDemo.Demo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\29546\\.nuget\\packages\\microsoft.win32.systemevents\\10.0.5\\microsoft.win32.systemevents.10.0.5.nupkg.sha512",
+    "C:\\Users\\29546\\.nuget\\packages\\opencvsharp4\\4.13.0.20260427\\opencvsharp4.4.13.0.20260427.nupkg.sha512",
+    "C:\\Users\\29546\\.nuget\\packages\\opencvsharp4.runtime.win\\4.13.0.20260302\\opencvsharp4.runtime.win.4.13.0.20260302.nupkg.sha512",
+    "C:\\Users\\29546\\.nuget\\packages\\opencvsharp4.wpfextensions\\4.13.0.20260427\\opencvsharp4.wpfextensions.4.13.0.20260427.nupkg.sha512",
+    "C:\\Users\\29546\\.nuget\\packages\\system.drawing.common\\10.0.5\\system.drawing.common.10.0.5.nupkg.sha512",
+    "C:\\Users\\29546\\.nuget\\packages\\system.memory\\4.6.3\\system.memory.4.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
