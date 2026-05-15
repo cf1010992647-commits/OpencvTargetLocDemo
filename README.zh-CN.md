@@ -1,5 +1,9 @@
 # 视觉定位 Demo
 
+[English](README.md) | [简体中文](README.zh-CN.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
+
+基于 OpenCV 的视觉定位类库和 WPF 演示程序。用于在图像中定位目标工件，并计算其相对于标准参考位置的 X/Y/R 偏移量。
+
 ## 跑起来
 
 用 VS2022 打开 `OpenCvDemo.sln`，启动项目选 `OpenCvDemo.Demo`。
@@ -22,31 +26,31 @@
 ```json
 {
   "Calibration": {
-    "ScaleX": 0.05,       // X方向 像素→毫米
-    "ScaleY": 0.05,       // Y方向 像素→毫米
-    "YDirection": -1      // Y方向符号，1 或 -1
+    "ScaleX": 0.05,
+    "ScaleY": 0.05,
+    "YDirection": -1
   },
   "StandardPosition": {
-    "CenterX": 640.0,     // 标准工件中心 X（像素）
-    "CenterY": 480.0,     // 标准工件中心 Y（像素）
-    "Angle": 0.0          // 标准工件角度
+    "CenterX": 640.0,
+    "CenterY": 480.0,
+    "Angle": 0.0
   },
   "Roi": {
     "X": 0,
     "Y": 0,
-    "Width": 0,           // 0 表示不限，用整幅图
+    "Width": 0,
     "Height": 0
   },
   "Detection": {
     "GaussianKernelSize": 5,
     "MorphologyKernelSize": 3,
-    "MinArea": 5000.0,        // 轮廓面积下限
-    "MaxArea": 500000.0,      // 轮廓面积上限
-    "MinAspectRatio": 0.5,    // 长宽比下限
-    "MaxAspectRatio": 2.0,    // 长宽比上限
-    "MinSolidity": 0.55,      // 实心率阈值
-    "InvertBinary": true,     // 反转二值化
-    "MinConfidence": 0.35     // 置信度阈值
+    "MinArea": 5000.0,
+    "MaxArea": 500000.0,
+    "MinAspectRatio": 0.5,
+    "MaxAspectRatio": 2.0,
+    "MinSolidity": 0.55,
+    "InvertBinary": true,
+    "MinConfidence": 0.35
   }
 }
 ```
